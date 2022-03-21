@@ -1,0 +1,95 @@
+.container {
+  max-width: 75%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.column-two-third {
+  width: calc(200% / 3);
+}
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.alignright {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.header {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 25px;
+}
+
+.center {
+  justify-content: center;
+  display: flex;
+}
+
+.paddingsides {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.paddingvertical {
+  padding-bottom: 100px;
+  padding-top: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Karla, sans-serif;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: Karla, sans-serif;
+  font-size: small;
+  margin-top: 20px;
+}
+
+p {
+  font-family: Karla, sans-serif;
+  font-size: small;
+  font-weight: 10;
+  margin-top: 10px;
+  line-height: 1.75;
+}
+
+img {
+  width: 75px;
+  height: auto;
+}
+
+button {
+  background-color: white;
+  border-width: 1.5px;
+  padding: 7.5px 30px;
+  color: tomato;
+  border-color: tomato;
+  font-family: Karla, sans-serif;
+}
