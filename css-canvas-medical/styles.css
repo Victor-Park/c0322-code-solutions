@@ -168,6 +168,10 @@
   position: relative;
 }
 
+.overlay {
+  opacity: 0.9;
+}
+
 .lineheight {
   line-height: 0.75;
 }
