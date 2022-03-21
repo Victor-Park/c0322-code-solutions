@@ -7,6 +7,10 @@
   width: 50%;
 }
 
+.column-full {
+  width: 100%;
+}
+
 .row {
   display: flex;
 }
@@ -16,19 +20,168 @@
   background-color: #fafafa;
 }
 
+.header {
+  border-bottom: 1px solid lightgray;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .links {
   padding-left: 15px;
   padding-right: 15px;
   font-family: Avenir, sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 100;
+  font-size: 10px;
 }
 
 .backgroundgray {
   background-color: #505150;
+  height: 280px;
+  width: auto;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 25px;
+}
+
+.backgroundlightgray {
+  background-color: #fafafa;
 }
 
 .whitetext {
   color: white;
+}
+
+.padding-left {
+  padding-left: 50px;
+}
+
+.padding-right {
+  padding-right: 50px;
+}
+
+.padding-allaround {
+  padding: 10px 25px 25px;
+}
+
+.padding-bottom {
+  padding-bottom: 20px;
+}
+
+.padding-lrb {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+}
+
+.margin-left {
+  margin-left: 100px;
+}
+
+.margin-right {
+  margin-right: 100px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.smalltext {
+  font-size: x-small;
+  font-family: Avenir, sans-serif;
+  line-height: 1.5;
+  font-weight: 25;
+}
+
+.mediumtext {
+  font-size: 10px;
+  font-family: Avenir, sans-serif;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+.tiempostext {
+  font-family: "Tiempos Headline", sans-serif;
+  font-size: 13px;
+}
+
+.tiempo {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+.graytext {
+  color: #6f6f6f;
+}
+
+.aligncenter {
+  display: flex;
+  align-items: center;
+}
+
+.alignrightcenter {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.getstartedbutton {
+  background-color: #223f63;
+  color: white;
+  padding: 8px 25px;
+  border-radius: 5%;
+  font-family: Avenir, sans-serif;
+}
+
+.contactusbutton {
+  background-color: #223f63;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5%;
+  font-family: Avenir, sans-serif;
+  font-size: 10px;
+}
+
+.imgwrapper {
+  position: relative;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgwrapper img {
+  width: 100%;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+.lineheight {
+  line-height: 0.75;
+}
+
+.textblock {
+  position: absolute;
+  left: 60px;
+  top: 25px;
+  width: 40%;
+  color: white;
+}
+
+.buttonblock {
+  position: absolute;
+  left: 60px;
+  top: 260px;
 }
