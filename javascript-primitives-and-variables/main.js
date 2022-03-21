@@ -1,0 +1,15 @@
+var fullName = 'Victor Park';
+var isCool = true;
+var totalPets = 0;
+var unknown = null;
+var never;
+console.log('Full Name', fullName);
+console.log('Is Cool?', isCool);
+console.log('Total Pets', totalPets);
+console.log(typeof fullName);
+console.log(typeof isCool);
+console.log(typeof totalPets);
+console.log('Unknown', unknown);
+console.log(typeof unknown);
+console.log('Never', never);
+console.log(typeof never);
