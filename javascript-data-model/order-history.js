@@ -47,27 +47,21 @@ var orderHistory = [
     shipTo: 'JS Masher',
     orderNumber: '#113-2883177-2648248',
     deliveryDate: '7/5/2020',
-    itemName: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
-    author: null,
-    itemCost: '$94.95',
     returnClose: '8/4/2020',
     deliveryMethod: null,
     productReview: false,
-    productSupport: true
-  },
-  {
-    orderDate: '7/3/2020',
-    orderTotal: '$138.93',
-    shipTo: 'JS Masher',
-    orderNumber: '#113-2883177-2648248',
-    deliveryDate: '7/5/2020',
-    itemName: 'The Art of Sql',
-    author: 'Faroult, Stephanie',
-    itemCost: '$33.99',
-    returnClose: '8/4/2020',
-    deliveryMethod: null,
-    productReview: false,
-    productSupport: true
+    item: [
+      {
+        itemName: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
+        itemCost: '$94.95',
+        author: null
+      },
+      {
+        itemName: 'The Art of Sql',
+        itemCost: '$33.99',
+        author: 'Faroult, Stephanie'
+      }
+    ]
   }
 ];
 
