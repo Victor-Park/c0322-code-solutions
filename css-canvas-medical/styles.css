@@ -43,7 +43,7 @@
   font-size: 10px;
 }
 
-.backgroundgray {
+.background-gray {
   background-color: #505150;
   height: 280px;
   width: auto;
@@ -52,11 +52,11 @@
   padding-bottom: 25px;
 }
 
-.backgroundlightgray {
+.background-lightgray {
   background-color: #fafafa;
 }
 
-.whitetext {
+.white-text {
   color: white;
 }
 
@@ -68,7 +68,7 @@
   padding-right: 50px;
 }
 
-.padding-allaround {
+.padding-all-around {
   padding: 10px 25px 25px;
 }
 
@@ -95,21 +95,21 @@
   height: auto;
 }
 
-.smalltext {
+.small-text {
   font-size: x-small;
   font-family: Avenir, sans-serif;
   line-height: 1.5;
   font-weight: 25;
 }
 
-.mediumtext {
+.medium-text {
   font-size: 10px;
   font-family: Avenir, sans-serif;
   line-height: 1.5;
   font-weight: lighter;
 }
 
-.tiempostext {
+.tiempos-text {
   font-family: "Tiempos Headline", sans-serif;
   font-size: 13px;
 }
@@ -118,26 +118,26 @@
   font-family: "Tiempos Headline", sans-serif;
 }
 
-.graytext {
+.gray-text {
   color: #6f6f6f;
 }
 
-.aligncenter {
+.align-center {
   display: flex;
   align-items: center;
 }
 
-.alignrightcenter {
+.align-right-center {
   display: flex;
   justify-content: end;
   align-items: center;
 }
 
-.textcenter {
+.text-center {
   text-align: center;
 }
 
-.getstartedbutton {
+.get-started-button {
   background-color: #223f63;
   color: white;
   padding: 8px 25px;
@@ -145,7 +145,7 @@
   font-family: Avenir, sans-serif;
 }
 
-.contactusbutton {
+.contact-us-button {
   background-color: #223f63;
   color: white;
   padding: 4px 8px;
@@ -154,7 +154,7 @@
   font-size: 10px;
 }
 
-.imgwrapper {
+.img-wrapper {
   position: relative;
   width: 80%;
   display: block;
@@ -162,7 +162,7 @@
   margin-right: auto;
 }
 
-.imgwrapper img {
+.img-wrapper img {
   width: 100%;
   position: relative;
 }
@@ -178,11 +178,11 @@
   height: 396px;
 }
 
-.lineheight {
+.line-height {
   line-height: 0.75;
 }
 
-.textblock {
+.text-block {
   position: absolute;
   left: 60px;
   top: 25px;
@@ -190,7 +190,7 @@
   color: white;
 }
 
-.buttonblock {
+.button-block {
   position: absolute;
   left: 60px;
   top: 260px;
