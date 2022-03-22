@@ -8,9 +8,12 @@
 }
 
 .column-fourth {
+  width: 25%;
+}
+
+.flex-column {
   display: flex;
   flex-direction: column;
-  width: 25%;
 }
 
 .text-center {
