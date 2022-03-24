@@ -1,0 +1,49 @@
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column-fifth {
+  width: 25%;
+}
+
+.object-fit {
+  object-fit: cover;
+}
+
+.item-name {
+  font-family: "DM Sans", sans-serif;
+}
+
+.size-name {
+  font-family: "DM Sans", sans-serif;
+  color: lightgray;
+}
+
+.price-tag {
+  font-family: "DM Sans", sans-serif;
+  background-color: #fff3e8;
+}
+
+del {
+  font-family: "DM Sans", sans-serif;
+  color: lightgray;
+}
+
+img {
+  max-width: 80%;
+  height: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  font-family: "DM Sans", sans-serif;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
