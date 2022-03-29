@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  height: 800px;
+}
+
+.bulb {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border-style: none;
+}
+
+.bulb.on {
+  background-color: #f9ea84;
+  box-shadow: 0 -10px 10px 10px #fef4d3;
+}
+
+.bulb.off {
+  background-color: #252525;
+  box-shadow: 0 -10px 10px 10px #0c0c0c;
+}
+
+div.on {
+  background-color: #fef9f1;
+}
+
+div.off {
+  background-color: #111;
+}
+
+button {
+  margin: auto;
+  margin-top: 250px;
+}
