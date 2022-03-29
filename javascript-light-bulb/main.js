@@ -4,6 +4,7 @@
 // if the button class is 'off'
 // turn it on
 // else (button is already on), turn it off
+
 var container = document.querySelector('.container');
 var bulb = document.querySelector('.bulb');
 bulb.addEventListener('click', function click(button) {
