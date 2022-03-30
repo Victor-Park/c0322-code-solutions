@@ -8,11 +8,11 @@ var button = document.querySelector('button');
 var close = document.querySelector('.close');
 
 button.addEventListener('click', function click() {
-  modal.style.display = 'block';
+  modal.className = 'modal on';
 }
 );
 
 close.addEventListener('click', function click() {
-  modal.style.display = 'none';
+  modal.className = 'modal off';
 }
 );

@@ -1,5 +1,9 @@
-.modal {
+.modal.off {
   display: none;
+}
+
+.modal.on {
+  display: block;
   background: #323232;
   position: fixed;
   width: 100%;
