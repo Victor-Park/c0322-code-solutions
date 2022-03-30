@@ -7,9 +7,11 @@
 
 var container = document.querySelector('.container');
 var bulb = document.querySelector('.bulb');
+var lightOff = true;
 bulb.addEventListener('click', function click(button) {
+  lightOff = !lightOff;
   var onoff;
-  if (bulb.className === 'bulb off') {
+  if (lightOff) {
     onoff = 'on';
   } else {
     onoff = 'off';
