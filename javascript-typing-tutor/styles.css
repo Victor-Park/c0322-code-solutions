@@ -11,25 +11,20 @@
   align-items: center;
 }
 
-.dormant {
+span {
   font-family: inconsolata, monospace;
   white-space: pre;
 }
 
 .next {
-  font-family: inconsolata, monospace;
   border-bottom: 1px solid;
-  white-space: pre;
 }
 
 .correct {
-  font-family: inconsolata, monospace;
   color: #18cd1b;
-  white-space: pre;
 }
 
 .wrong {
-  font-family: inconsolata, monospace;
   color: red;
   border-bottom: 2px solid;
 }
