@@ -14,9 +14,7 @@ function text() {
     var count = parseInt(text.textContent);
     --count;
     text.textContent = String(count);
-    return;
-  }
-  if (text.textContent === '1') {
+  } else if (text.textContent === '1') {
     text.textContent = '~Earth Beeeelooowww Us~';
   } else {
     clear();
