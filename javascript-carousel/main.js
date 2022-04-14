@@ -33,6 +33,8 @@ dotcontainer.addEventListener('click', function (event) {
         dot[i].className = 'fa-solid fa-circle dot-padding';
         images[i].className = 'picture-padding';
         index = i;
+        clearInterval(returnID);
+        interval();
       } else {
         dot[i].className = 'fa-regular fa-circle dot-padding';
         images[i].className = 'hidden';
