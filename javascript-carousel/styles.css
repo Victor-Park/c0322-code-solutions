@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.picture-padding {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.dot-padding {
+  padding-left: 10px;
+}
+
+.hidden {
+  display: none;
+}
