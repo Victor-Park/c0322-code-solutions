@@ -9,5 +9,6 @@ function ransomCase(string) {
   var splitString = lowercase.split('');
   for (var i = 1; i < splitString.length; i += 2) {
     splitString[i] = splitString[i].toUpperCase();
-  } return splitString.join('');
+  }
+  return splitString.join('');
 }
