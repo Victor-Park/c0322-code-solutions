@@ -2,8 +2,8 @@
 // create new function omit with 2 parameters, source and keys
 // create empty object
 // for key in source
-// if key !== keys
-// assign key:value pair to empty object
+// if keys do not include key
+// add key value pair to empty object
 // return object
 
 function omit(source, keys) {

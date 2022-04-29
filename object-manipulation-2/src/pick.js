@@ -1,6 +1,10 @@
 /* exported pick */
 // create new function pick with 2 parameters, source and keys
-// for in loop
+// create empty object
+// for key in source
+// if keys include key
+// store key:value pair in empty object
+// return object
 
 function pick(source, keys) {
   var newObj = {};
