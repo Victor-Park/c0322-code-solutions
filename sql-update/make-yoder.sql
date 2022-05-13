@@ -1,4 +1,4 @@
  update "actors"
-    set "firstName"       = 'Baby',
-        "lastName"        = 'Yoda'
-  where "actorId"         = 15;
+    set "firstName"      = 'Baby',
+        "lastName"       = 'Yoda'
+  where "actorId"        = 15;
