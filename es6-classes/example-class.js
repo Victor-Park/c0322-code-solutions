@@ -8,7 +8,7 @@ class ExampleClass {
   }
 }
 
-const example = new ExampleClass('vic');
+const example = new ExampleClass();
 
 console.log('typeof example:', typeof example);
 console.log('value of example:', example);
