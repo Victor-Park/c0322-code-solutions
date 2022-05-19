@@ -1,0 +1,37 @@
+.toggle {
+  appearance: none;
+  width: 62px;
+  height: 36px;
+  display: inline-block;
+  position: relative;
+  border-radius: 50px;
+  background-color: #707070;
+  border-style: solid;
+  transition: 0.3s;
+}
+
+.toggle::before {
+  border-style: solid;
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 28px;
+  height: 28px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.toggle:checked {
+  background-color: #47ce5d;
+}
+
+.toggle:checked::before {
+  left: 28px;
+}
+
+.label {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
