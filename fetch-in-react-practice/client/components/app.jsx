@@ -48,7 +48,7 @@ export default class App extends React.Component {
     })
       .then(res => res.json())
       .then(updatedTodo => {
-        const copyArr = this.state.todos;
+        const copyArr = this.state.todos.slice();
         copyArr[index] = updatedTodo;
         this.setState({ todos: copyArr });
       });
